@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "URL.h"
 #import "UIKitUtiltiy.h"
-
+#import "MTDownload.h"
 /*
  http://d3.s.hjfile.cn/2012/201202_3/43904b09-24e1-4fdb-8b46-d3dba3323278.mp3
  */
@@ -28,7 +28,7 @@
     //显示进度
     MBProgressHUD *_hud;
 }
-
+@property (strong, nonatomic) MTDownload *downloader;
 @end
 
 /*
@@ -159,26 +159,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//按下开始下载按钮后做的事
 - (IBAction)startRequest:(id)sender
 {
-    //[UIKitUtiltiy showBMProgessHUD:self.view animated:YES];
-    _hud = [UIKitUtiltiy showBMProgessHUD:self.view animated:YES progressHUDMode:MBProgressHUDModeDeterminateHorizontalBar];
-    
-    NSURL *url = [NSURL URLWithString:kIMAGEURL];
-    //请求对象
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    
-    //1.发送异步请求
-    [NSURLConnection connectionWithRequest:request delegate:self];
-    
-    //2.开始加载
-    [self.activityIndicatorView startAnimating];
-    
-    //3.按钮不可点击
-    self.downloadButton.enabled = NO;
-    
-    
+    //用downloader去调用下载的方法
+    _downloader = [[MTDownload alloc] init];
+    [_downloader downloaderWithURLString:kIMAGEURL];
     
 #if 0
     自动发送异步请求

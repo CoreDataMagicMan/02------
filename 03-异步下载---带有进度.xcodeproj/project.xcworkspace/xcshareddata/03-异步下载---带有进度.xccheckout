@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0FB90D2-E71B-4E37-B6C1-3056A5641CE2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>03-异步下载---带有进度</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>338E34D76AD40EADAA57D0A5549DE9B325D51862</key>
+		<string>https://github.com/CoreDataMagicMan/02------.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>03-异步下载---带有进度.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>338E34D76AD40EADAA57D0A5549DE9B325D51862</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CoreDataMagicMan/02------.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>338E34D76AD40EADAA57D0A5549DE9B325D51862</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>338E34D76AD40EADAA57D0A5549DE9B325D51862</string>
+			<key>IDESourceControlWCCName</key>
+			<string>02-%E5%BC%82%E6%AD%A5%E4%B8%8B%E8%BD%BD---%E5%B8%A6%E6%9C%89%E8%BF%9B%E5%BA%A6</string>
+		</dict>
+	</array>
+</dict>
+</plist>
