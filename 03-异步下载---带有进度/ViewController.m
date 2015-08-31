@@ -47,8 +47,6 @@
     NSFileManager *manager = [NSFileManager defaultManager];
     NSString *path = [NSString stringWithFormat:@"Documents/large-image.jpg"];
     NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:path];
-    
-    NSLog(@"%@",filePath);
     BOOL isExist = [manager fileExistsAtPath:filePath];
     if (isExist) {
         NSLog(@"ccccc");
