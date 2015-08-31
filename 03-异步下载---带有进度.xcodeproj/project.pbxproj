@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C99CC291B91DA50008C6B49 /* MTDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C99CC281B91DA50008C6B49 /* MTDownload.m */; };
+		2C9865841B941C790007D48E /* MTDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9865831B941C790007D48E /* MTDownload.m */; };
 		7976A42A1B8FF2AD007B1A51 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976A4291B8FF2AD007B1A51 /* MBProgressHUD.m */; };
 		7976A42D1B8FF330007B1A51 /* UIKitUtiltiy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976A42C1B8FF330007B1A51 /* UIKitUtiltiy.m */; };
 		79ED396F1B8AF5C500D8D0AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED396E1B8AF5C500D8D0AD /* main.m */; };
@@ -30,8 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C99CC271B91DA50008C6B49 /* MTDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDownload.h; sourceTree = "<group>"; };
-		2C99CC281B91DA50008C6B49 /* MTDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDownload.m; sourceTree = "<group>"; };
+		2C9865821B941C790007D48E /* MTDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDownload.h; sourceTree = "<group>"; };
+		2C9865831B941C790007D48E /* MTDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDownload.m; sourceTree = "<group>"; };
 		7976A4281B8FF2AD007B1A51 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7976A4291B8FF2AD007B1A51 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7976A42B1B8FF330007B1A51 /* UIKitUtiltiy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitUtiltiy.h; sourceTree = "<group>"; };
@@ -70,13 +70,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C99CC261B91DA19008C6B49 /* Download */ = {
+		2C9865811B941C540007D48E /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				2C99CC271B91DA50008C6B49 /* MTDownload.h */,
-				2C99CC281B91DA50008C6B49 /* MTDownload.m */,
+				2C9865821B941C790007D48E /* MTDownload.h */,
+				2C9865831B941C790007D48E /* MTDownload.m */,
 			);
-			name = Download;
+			name = Downloader;
 			sourceTree = "<group>";
 		};
 		7976A4271B8FF2AD007B1A51 /* MBProgressHUD */ = {
@@ -110,7 +110,7 @@
 		79ED396B1B8AF5C500D8D0AD /* 03-异步下载---带有进度 */ = {
 			isa = PBXGroup;
 			children = (
-				2C99CC261B91DA19008C6B49 /* Download */,
+				2C9865811B941C540007D48E /* Downloader */,
 				7976A4271B8FF2AD007B1A51 /* MBProgressHUD */,
 				7976A42B1B8FF330007B1A51 /* UIKitUtiltiy.h */,
 				7976A42C1B8FF330007B1A51 /* UIKitUtiltiy.m */,
@@ -255,7 +255,7 @@
 			files = (
 				79ED39751B8AF5C500D8D0AD /* ViewController.m in Sources */,
 				79ED39721B8AF5C500D8D0AD /* AppDelegate.m in Sources */,
-				2C99CC291B91DA50008C6B49 /* MTDownload.m in Sources */,
+				2C9865841B941C790007D48E /* MTDownload.m in Sources */,
 				7976A42D1B8FF330007B1A51 /* UIKitUtiltiy.m in Sources */,
 				79ED396F1B8AF5C500D8D0AD /* main.m in Sources */,
 				7976A42A1B8FF2AD007B1A51 /* MBProgressHUD.m in Sources */,
