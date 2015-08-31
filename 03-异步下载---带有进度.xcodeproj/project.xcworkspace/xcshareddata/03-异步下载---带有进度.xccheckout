@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F0FB90D2-E71B-4E37-B6C1-3056A5641CE2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>03-异步下载---带有进度</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>338E34D76AD40EADAA57D0A5549DE9B325D51862</key>
 		<string>https://github.com/CoreDataMagicMan/02------.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>03-异步下载---带有进度.xcodeproj</string>
+	<string>03-异步下载---带有进度.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>338E34D76AD40EADAA57D0A5549DE9B325D51862</key>
